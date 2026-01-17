@@ -27,6 +27,7 @@ struct nodo
 
     nodo(Estudiantes *e) : est(e), sig(nullptr) {}
 };
+
  
 class ListaEnlazada
 {
@@ -60,3 +61,4 @@ public:
             temp->sig = nuevoEstudiante;
         }
     }
+
